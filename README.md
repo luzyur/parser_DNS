@@ -15,15 +15,15 @@
 pip install selenium beautifulsoup4 undetected-chromedriver lxml
 ```
 ## Функции
-init_driver(): Инициализация веб-драйвера.
-restart_driver(driver): Перезапуск драйвера.
-wait_for_element_with_refresh(driver, locator, timeout=30, refresh_rate=5): Ожидание элемента с возможностью обновления страницы.
-get_catalog_url(driver, url): Возвращает список URL всех страниц каталога.
-get_all_product_page_urls(driver, catalog_url): Сбор URL всех продуктов на странице каталога.
-parse_characteristics_page(driver, url): Парсинг страницы продукта и извлечение данных.
-main(): Основная функция скрипта.
+init_driver(): Инициализация веб-драйвера. </br>
+restart_driver(driver): Перезапуск драйвера. </br>
+wait_for_element_with_refresh(driver, locator, timeout=30, refresh_rate=5): Ожидание элемента с возможностью обновления страницы. </br>
+get_catalog_url(driver, url): Возвращает список URL всех страниц каталога. </br>
+get_all_product_page_urls(driver, catalog_url): Сбор URL всех продуктов на странице каталога. </br>
+parse_characteristics_page(driver, url): Парсинг страницы продукта и извлечение данных. </br>
+main(): Основная функция скрипта. </br>
 ## Запуск
-Для запуска скрипта выполните в терминале:
+Для запуска скрипта выполните в терминале:</br>
   Для парсинга данных в .txt файл
 ```bash
 python3 main.py
