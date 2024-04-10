@@ -103,7 +103,24 @@ def main():
     """
     driver = init_driver()
     urls = [
-        'https://www.dns-shop.ru/catalog/2b911f3c621a36eb/servernye-ssd-m2/'
+        'https://www.dns-shop.ru/catalog/17a8df6816404e77/lazernye-mfu/',
+        'https://www.dns-shop.ru/catalog/17a8df9d16404e77/strujnye-mfu/',
+        'https://www.dns-shop.ru/catalog/17a8e00716404e77/lazernye-printery/',
+        'https://www.dns-shop.ru/catalog/17a8e07216404e77/strujnye-printery/',
+        'https://www.dns-shop.ru/catalog/17a8e0a516404e77/shirokoformatnye-printery/',
+        'https://www.dns-shop.ru/catalog/17a892f816404e77/noutbuki/',
+        'https://www.dns-shop.ru/catalog/17a899cd16404e77/processory/',
+        'https://www.dns-shop.ru/catalog/17a89a0416404e77/materinskie-platy/',
+        'https://www.dns-shop.ru/catalog/17a89aab16404e77/videokarty/',
+        'https://www.dns-shop.ru/catalog/17a89a3916404e77/operativnaya-pamyat-dimm/',
+        'https://www.dns-shop.ru/catalog/17a89c2216404e77/bloki-pitaniya/',
+        'https://www.dns-shop.ru/catalog/8a9ddfba20724e77/ssd-nakopiteli/',
+        'https://www.dns-shop.ru/catalog/dd58148920724e77/ssd-m2-nakopiteli/',
+        'https://www.dns-shop.ru/catalog/1023687c7ba7a69d/servernye-ssd/',
+        'https://www.dns-shop.ru/catalog/2b911f3c621a36eb/servernye-ssd-m2/',
+        'https://www.dns-shop.ru/catalog/17a8914916404e77/zhestkie-diski-35/',
+        'https://www.dns-shop.ru/catalog/f09d15560cdd4e77/zhestkie-diski-25/',
+        'https://www.dns-shop.ru/catalog/17aa4e3216404e77/servernye-hdd/'
     ]
     iterations = 0
     restart_threshold = 20
